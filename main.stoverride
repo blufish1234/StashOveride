@@ -1,5 +1,5 @@
-name: "默認複寫配置"
-desc: "自用"
+name: 默認複寫配置
+desc: 自用
 
 proxy-groups:
     name: Discord
