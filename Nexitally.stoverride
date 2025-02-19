@@ -1,0 +1,7 @@
+name: "Stash override for Nexitally"
+desc: "Own Use"
+
+dns: 
+  nameserver: #!replace
+    - 1.1.1.1
+    - 1.0.0.1
