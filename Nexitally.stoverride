@@ -8,4 +8,3 @@ dns:
   default-nameserver:  #!replace
     - 1.1.1.1
     - 1.0.0.1
-  follow-rule: true
