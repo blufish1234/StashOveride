@@ -1,5 +1,5 @@
-name: "Stash override for Nexitally"
-desc: "Own Use"
+name: "Stash Override for Nexitally"
+desc: "提供自定義dns伺服器服務"
 
 dns: 
   nameserver: #!replace
@@ -8,4 +8,3 @@ dns:
   default-nameserver:  #!replace
     - 1.1.1.1
     - 1.0.0.1
-  follow-rule: True
