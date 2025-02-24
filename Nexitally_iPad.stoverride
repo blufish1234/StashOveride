@@ -10,3 +10,6 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
   follow-rule: True #!replace
+rule: 
+  - DOMAIN,dns.nextdns.io,PROXY
+  - DOMAIN-KEYWORD,nextdns,DIRECT
