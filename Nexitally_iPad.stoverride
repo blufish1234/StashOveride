@@ -1,7 +1,7 @@
 name: "Stash Override for Nexitally"
 desc: "提供自定義dns伺服器服務"
 
-dns: 
+dns:
   nameserver: #!replace
     - https://dns.nextdns.io/b1bc9c/iPad_Pro
   default-nameserver: #!replace
@@ -10,6 +10,10 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
   follow-rule: True #!replace
-rule: 
-  - DOMAIN,dns.nextdns.io,Proxies
-  - DOMAIN-KEYWORD,nextdns,DIRECT
+
+rules:
+  - DOMAIN,dns.nextdns.io,PROXY
+  - IP-CIDR,1.1.1.1/32,DIRECT
+  - IP-CIDR,1.0.0.1/32,DIRECT
+  - IP-CIDR,223.5.5.5/32,DIRECT
+  - IP-CIDR,223.6.6.6/32,DIRECT
