@@ -9,5 +9,5 @@ dns:
     - 1.0.0.1
     - 223.5.5.5
     - 223.6.6.6
-  skip-cert-verify: true #!replace
-  follow-rule: true #!replace
+  skip-cert-verify: true
+  follow-rule: true
