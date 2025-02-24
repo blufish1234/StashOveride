@@ -3,8 +3,10 @@ desc: "提供自定義dns伺服器服務"
 
 dns: 
   nameserver: #!replace
-    - https://1.1.1.1/dns-query
-    - https://1.0.0.1/dns-query
+    - https://dns.nextdns.io/b1bc9c/iPad_Pro
   default-nameserver:  #!replace
     - 1.1.1.1
     - 1.0.0.1
+    - 223.5.5.5
+    - 223.6.6.6
+  follow-rule: True
