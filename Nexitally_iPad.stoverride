@@ -15,6 +15,7 @@ dns:
     "*.xsatmo.lol": 119.29.29.29
     "*.ivdgoq.lol": 119.29.29.29
     "*.ckbuts.lol": 119.29.29.29
+  skip-cert-verify: True
 rules:
   - DOMAIN,dns.nextdns.io,Proxies
   - DOMAIN-KEYWORD,nextdns.io,🎯Direct
