@@ -3,9 +3,13 @@ desc: "提供自定義dns伺服器服務"
 
 dns:
   nameserver: #!replace
-    - https://nextdns.minecraftblufish.workers.dev
+    - dns.alidns.com/dns-query
+  fallback: #!replace
+    - dns.nextdns.io/b1bc9c/iPad
   default-nameserver: #!replace
     - 1.1.1.1
-    - 1.0.0.1
     - 223.5.5.5
-    - 223.6.6.6
+    - 119.29.29.29
+rules:
+  - DOMAIN,dns.nextdns.io,Proxies
+  - DOMAIN-KEYWORD,nextdns.io,🎯Direct
