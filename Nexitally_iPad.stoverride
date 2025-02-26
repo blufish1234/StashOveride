@@ -5,7 +5,7 @@ dns:
   nameserver: #!replace
     - https://dns.alidns.com/dns-query
   fallback: #!replace
-    - https://dns.nextdns.io/b1bc9c/iPad
+    - https://1.1.1.1/dns-query
   default-nameserver: #!replace
     - 1.1.1.1
     - 223.5.5.5
