@@ -5,7 +5,8 @@ dns:
   nameserver: #!replace
     - https://dns.alidns.com/dns-query
   fallback: #!replace
-    - https://cloudflare-dns.com/dns-query
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
   default-nameserver: #!replace
     - 1.1.1.1
     - 223.5.5.5
@@ -19,4 +20,4 @@ dns:
     "*.xsatmo.lol": 119.29.29.29
     "*.ivdgoq.lol": 119.29.29.29
     "*.ckbuts.lol": 119.29.29.29
-    "cloudflare-dns.com": 119.29.29.29
+#    "cloudflare-dns.com": 119.29.29.29
