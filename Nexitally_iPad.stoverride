@@ -15,9 +15,8 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
     - 1.1.1.1
-  follow-rule: True
+  #follow-rule: True
   nameserver-policy: #!replace
     "*.xsatmo.lol": 119.29.29.29
     "*.ivdgoq.lol": 119.29.29.29
     "*.ckbuts.lol": 119.29.29.29
-    "1.1.1.1": 119.29.29.29
