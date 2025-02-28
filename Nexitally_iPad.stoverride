@@ -18,3 +18,6 @@ dns:
     '*.ivdgoq.lol': 223.5.5.5
     '*.ckbuts.lol': 223.5.5.5
     'dns.nextdns.io': 119.29.29.29
+
+rules: 
+  - DOMAIN,dns.nextdns.io,PROXY
