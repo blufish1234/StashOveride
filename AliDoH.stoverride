@@ -1,0 +1,8 @@
+name: 阿里雲DoH
+desc: 使用阿里雲提供的DoH服務來進行DNS解析
+dns: 
+  default-nameserver: #!replace
+    - https://223.5.5.5/dns-query
+    - https://223.6.6.6/dns-query
+  nameserver: #!replace
+    - https://dns.alidns.com/dns-query
