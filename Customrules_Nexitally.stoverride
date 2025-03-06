@@ -377,6 +377,7 @@ rule-providers: #!replace
   #  url: https://gist.githubusercontent.com/Explorare/07ef0109360dbed22f22d00125952e13/raw/995f3b197f740928b17137e06444bd650996fcf0/TailscaleDERP.list
   #  interval: 86400
 rules: #!replace
+- "DOMAIN,sub.nexconvert.com,\U0001F3AFDirect"
 - DOMAIN,dns.nextdns.io,Proxies
 - "DOMAIN-KEYWORD,nextdns.io,\U0001F3AFDirect"
 - DOMAIN,ic.adobe.io,REJECT
